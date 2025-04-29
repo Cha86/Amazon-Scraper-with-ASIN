@@ -1,6 +1,7 @@
 # 🔍 Amazon ASIN Price-Checker
 
 Give it a list of ASINs and your promo prices, and it will visit every product page on Amazon, grab the live price, shout “Match!” or “Mismatch!” — then toss the results into a tidy CSV for you.
+The main goal of this program is to help you quickly check all the prices that you want to run promo on Amazon or the current buy box status without checking manually one by one. It will go through each of the ASINs and generate a report for you.
 
 ---
 
