@@ -39,3 +39,12 @@ pip install selenium beautifulsoup4 pandas openpyxl
 The output looks like this:
 ![image](https://github.com/user-attachments/assets/49fd32a1-1b03-4c4a-ad1c-bb3095d77af0)
 
+
+Note:
+Headless mode – add
+```bash
+options = webdriver.ChromeOptions()
+options.add_argument("--headless")
+return webdriver.Chrome(options=options)
+inside init_driver()
+```
