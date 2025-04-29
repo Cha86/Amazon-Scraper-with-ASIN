@@ -41,10 +41,9 @@ The output looks like this:
 
 
 Note:
-Headless mode – add
+If you don't want to see the chrome browser pop up when running the script, do add the headless mode inside init_driver()
 ```bash
 options = webdriver.ChromeOptions()
 options.add_argument("--headless")
 return webdriver.Chrome(options=options)
-inside init_driver()
 ```
